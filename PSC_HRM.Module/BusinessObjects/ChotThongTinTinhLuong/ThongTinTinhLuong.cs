@@ -75,6 +75,7 @@ namespace PSC_HRM.Module.ChotThongTinTinhLuong
         private bool _KhongCuTru;
         
         private ThongTinLuongEnum _PhanLoai;
+        private LoaiLuongChinhEnum _LoaiLuongChinh;
 
         //-----------Lương khoán-----------
         private decimal _LuongKhoan;
@@ -258,6 +259,7 @@ namespace PSC_HRM.Module.ChotThongTinTinhLuong
                     else
                         TrangThaiThamGiaBaoHiem = TrangThaiThamGiaBaoHiemEnum.GiamTamThoi;
                     PhanLoai = value.NhanVienThongTinLuong.PhanLoai;
+                    LoaiLuongChinh = value.LoaiLuongChinh;
                     NgachLuong = value.NhanVienThongTinLuong.NgachLuong;
                     BacLuong = value.NhanVienThongTinLuong.BacLuong;
                     HeSoLuong = value.NhanVienThongTinLuong.HeSoLuong;
@@ -408,6 +410,19 @@ namespace PSC_HRM.Module.ChotThongTinTinhLuong
                         HeSoLuong = 0;
                     }
                 }
+            }
+        }
+        [ModelDefault("Caption", "Loại lương chính")]
+        //[RuleRequiredField(DefaultContexts.Save)]
+        public LoaiLuongChinhEnum LoaiLuongChinh
+        {
+            get
+            {
+                return _LoaiLuongChinh;
+            }
+            set
+            {
+                SetPropertyValue("LoaiLuongChinh", ref _LoaiLuongChinh, value);
             }
         }
 
