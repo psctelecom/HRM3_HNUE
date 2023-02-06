@@ -468,6 +468,9 @@
     <Content Include="Configs\HNUE\PSC_HRM.bin">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
+    <Content Include="Configs\HNUE\PSC_HRM_HNUE.bin">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <None Include="Help\BanChapHanhDang.mht" />
     <None Include="Help\BanChapHanhDoan.mht" />
     <None Include="Help\BanChapHanhDoanThe.mht" />

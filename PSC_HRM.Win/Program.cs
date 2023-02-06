@@ -29,7 +29,7 @@ namespace PSC_HRM.Win
             Tracing.LogName = @"E:\Logs\CustomLogFile";
             PSC_HRMWindowsFormsApplication winApplication = new PSC_HRMWindowsFormsApplication();
             winApplication.ConnectionString = DataProvider.GetConnectionString(DataProvider.DataBase);
-            winApplication.DatabaseUpdateMode = DatabaseUpdateMode.UpdateDatabaseAlways;
+            winApplication.DatabaseUpdateMode = DatabaseUpdateMode.Never;
 
        
 
