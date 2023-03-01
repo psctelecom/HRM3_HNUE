@@ -16330,6 +16330,7 @@
     </ListView>
     <DetailView Id="ThongTinNhanVien_DetailView" FreezeLayout="True">
       <Items>
+        <PropertyEditor Id="NganhDaoTao" PropertyName="NhanVienTrinhDo.ChuyenMonDaoTao.NganhDaoTao" Index="1" IsNewNode="True" />
         <PropertyEditor Id="ChucVuDoanThe" AllowEdit="False" />
         <PropertyEditor Id="NgayBoNhiemDang" AllowEdit="False" />
         <PropertyEditor Id="NgayBoNhiemDoanThe" AllowEdit="False" />
@@ -16589,10 +16590,11 @@
                     <LayoutGroup Id="Item16" ShowCaption="True" Caption="Trình độ chuyên môn cao nhất" CaptionLocation="Top" Index="3" RelativeSize="77.142857142857139" IsNewNode="True">
                       <LayoutItem Id="NhanVienTrinhDo.TrinhDoChuyenMon" ViewItem="NhanVienTrinhDo.TrinhDoChuyenMon" SizeConstraintsType="Default" Index="0" RelativeSize="11.851851851851851" IsNewNode="True" />
                       <LayoutItem Id="NhanVienTrinhDo.ChuyenMonDaoTao" ViewItem="NhanVienTrinhDo.ChuyenMonDaoTao" SizeConstraintsType="Default" Index="1" RelativeSize="8.88888888888889" IsNewNode="True" />
-                      <LayoutItem Id="NhanVienTrinhDo.TruongDaoTao" ViewItem="NhanVienTrinhDo.TruongDaoTao" SizeConstraintsType="Default" Index="2" RelativeSize="8.88888888888889" IsNewNode="True" />
-                      <LayoutItem Id="NhanVienTrinhDo.HinhThucDaoTao" ViewItem="NhanVienTrinhDo.HinhThucDaoTao" SizeConstraintsType="Default" Index="3" RelativeSize="8.88888888888889" IsNewNode="True" />
-                      <LayoutItem Id="NhanVienTrinhDo.NamTotNghiep" ViewItem="NhanVienTrinhDo.NamTotNghiep" SizeConstraintsType="Default" Index="4" RelativeSize="8.88888888888889" IsNewNode="True" />
-                      <LayoutItem Id="NhanVienTrinhDo.NgayCapBang" ViewItem="NhanVienTrinhDo.NgayCapBang" SizeConstraintsType="Default" Index="5" RelativeSize="41.111111111111114" IsNewNode="True" />
+                      <LayoutItem Id="NganhDaoTao" ViewItem="NganhDaoTao" SizeConstraintsType="Default" Index="2" RelativeSize="8.88888888888889" IsNewNode="True" />
+                      <LayoutItem Id="NhanVienTrinhDo.TruongDaoTao" ViewItem="NhanVienTrinhDo.TruongDaoTao" SizeConstraintsType="Default" Index="3" RelativeSize="8.88888888888889" IsNewNode="True" />
+                      <LayoutItem Id="NhanVienTrinhDo.HinhThucDaoTao" ViewItem="NhanVienTrinhDo.HinhThucDaoTao" SizeConstraintsType="Default" Index="4" RelativeSize="8.88888888888889" IsNewNode="True" />
+                      <LayoutItem Id="NhanVienTrinhDo.NamTotNghiep" ViewItem="NhanVienTrinhDo.NamTotNghiep" SizeConstraintsType="Default" Index="5" RelativeSize="8.88888888888889" IsNewNode="True" />
+                      <LayoutItem Id="NhanVienTrinhDo.NgayCapBang" ViewItem="NhanVienTrinhDo.NgayCapBang" SizeConstraintsType="Default" Index="6" RelativeSize="32.222222222222221" IsNewNode="True" />
                     </LayoutGroup>
                   </LayoutGroup>
                   <LayoutGroup Id="Autoc0ac9e44-23a3-4f41-a52f-2cf3ced36744" ShowCaption="False" Caption="Autoc0ac9e44-23a3-4f41-a52f-2cf3ced36744(140)" Index="1" RelativeSize="54.638218923933209" IsNewNode="True">

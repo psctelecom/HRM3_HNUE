@@ -176,14 +176,14 @@ namespace PSC_HRM.Module.CauHinh
             base.AfterConstruction();
 
             SoBatDau = 1;
-            MauSoHopDongChamBaoCao = "{00#}/HĐCBC-ĐHL-TCCB";
-            MauSoHopDongCoVanHocTap = "{00#}/HĐCVHT-ĐHL-TCCB";
-            MauSoHopDongKhoan = "{00#}/HĐK-ĐHL-TCCB";
-            MauSoHopDongLamViec = "{00#}/HĐLV-ĐHL-TCCB";
-            MauSoHopDongLaoDong = "{00#}/HĐLĐ-ĐHL-TCCB";
-            MauSoHopDongThanhLyThinhGiang = "{00#}/HĐTLTG-ĐHL-TCCB";
-            MauSoHopDongThanhLyThinhGiangChatLuongCao = "{00#}/HĐCN-ĐHL-TCCB";
-            MauSoHopDongThinhGiang = "{00#}/HĐTG-ĐHL-TCCB";
+            MauSoHopDongChamBaoCao = "{00#}/HĐCBC";
+            MauSoHopDongCoVanHocTap = "{00#}/HĐCVHT";
+            MauSoHopDongKhoan = "{00#}/HĐK";
+            MauSoHopDongLamViec = "{00#}/HĐLV";
+            MauSoHopDongLaoDong = "{00#}/HĐLĐ";
+            MauSoHopDongThanhLyThinhGiang = "{00#}/HĐTLTG";
+            MauSoHopDongThanhLyThinhGiangChatLuongCao = "{00#}/HĐCN";
+            MauSoHopDongThinhGiang = "{00#}/HĐTG";
         }
     }
 

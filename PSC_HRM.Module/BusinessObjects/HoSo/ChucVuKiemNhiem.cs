@@ -124,7 +124,7 @@ namespace PSC_HRM.Module.HoSo
             }
         }
 
-        [ModelDefault("Caption", "Đã miễn nhiệm")]
+        [ModelDefault("Caption", "Đã thôi kiêm nhiệm chức vụ")]
         public bool DaMienNhiem
         {
             get

@@ -845,6 +845,8 @@
     <Compile Include="BusinessObjects\ReportClass\DanhGiaKPI\Report_DanhGiaKPI_CaNhanChuaDanhGia.cs" />
     <Compile Include="BusinessObjects\ReportClass\DanhGiaKPI\Report_DanhGiaKPI_KetQuaDanhGiaBoPhan.cs" />
     <Compile Include="BusinessObjects\ReportClass\DanhGiaKPI\Report_DanhGiaKPI_KetQuaDanhGiaCaNhan.cs" />
+    <Compile Include="BusinessObjects\ReportClass\NEU\Report_NangThamNienNhaGiao_DanhSachHuongPhuCapThamNienNhaGiao.cs" />
+    <Compile Include="BusinessObjects\ReportClass\NEU\Report_NangLuong_DanhSachHuongPhuCapUuDai.cs" />
     <Compile Include="BusinessObjects\ReportClass\NEU\Report_TKD02TK1_TNN.cs" />
     <Compile Include="BusinessObjects\ReportClass\NEU\Report_TKD01_TNN.cs" />
     <Compile Include="BusinessObjects\ReportClass\NEU\Report_BienDongBaoHiem.cs" />
