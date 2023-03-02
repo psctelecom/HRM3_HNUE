@@ -23,7 +23,7 @@
     <SccLocalPath>SAK</SccLocalPath>
     <SccAuxPath>SAK</SccAuxPath>
     <SccProvider>SAK</SccProvider>
-    <PublishUrl>E:\Publishes\QNU\</PublishUrl>
+    <PublishUrl>E:\Publishes\HNUE\</PublishUrl>
     <Install>true</Install>
     <InstallFrom>Web</InstallFrom>
     <UpdateEnabled>true</UpdateEnabled>
@@ -33,20 +33,20 @@
     <UpdatePeriodically>false</UpdatePeriodically>
     <UpdateRequired>true</UpdateRequired>
     <MapFileExtensions>true</MapFileExtensions>
-    <InstallUrl>http://autoupdatehrmqnu.psctelecom.com.vn/</InstallUrl>
-    <UpdateUrl>http://autoupdatehrmqnu.psctelecom.com.vn/</UpdateUrl>
+    <InstallUrl>http://autoupdatehrmhnue.psctelecom.com.vn/</InstallUrl>
+    <UpdateUrl>http://autoupdatehrmhnue.psctelecom.com.vn/</UpdateUrl>
     <SupportUrl>http://psctelecom.com.vn</SupportUrl>
     <ErrorReportUrl>http://psctelecom.com.vn/</ErrorReportUrl>
     <TargetCulture>vi-VN</TargetCulture>
     <ProductName>PSC HRM</ProductName>
     <PublisherName>PSC</PublisherName>
     <SuiteName>PSC</SuiteName>
-    <MinimumRequiredVersion>2.0.0.18</MinimumRequiredVersion>
+    <MinimumRequiredVersion>2.0.0.1</MinimumRequiredVersion>
     <CreateWebPageOnPublish>true</CreateWebPageOnPublish>
     <WebPage>index.htm</WebPage>
     <OpenBrowserOnPublish>false</OpenBrowserOnPublish>
-    <ApplicationRevision>291</ApplicationRevision>
-    <ApplicationVersion>2.0.0.291</ApplicationVersion>
+    <ApplicationRevision>7</ApplicationRevision>
+    <ApplicationVersion>2.0.0.%2a</ApplicationVersion>
     <UseApplicationTrust>false</UseApplicationTrust>
     <CreateDesktopShortcut>true</CreateDesktopShortcut>
     <PublishWizardCompleted>true</PublishWizardCompleted>
