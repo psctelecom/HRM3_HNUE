@@ -12,7 +12,7 @@ namespace PSC_HRM.Module.ReportClass
 {
     [NonPersistent()]
     [ImageName("BO_Report")]
-    [ModelDefault("Caption", "Báo cáo: Thống kê chất lượng viên chức trong các đơn vị sự nghiệp công lập")]
+    [ModelDefault("Caption", "Báo cáo: Thống kê cơ cấu đội ngũ viên chức, người lao động")]
     public class Report_ThongKe_ChatLuongVienChuc : StoreProcedureReport
     {
         // Fields...
